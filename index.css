@@ -1,0 +1,29 @@
+#tables{
+    display: grid;
+    background-color: rgb(230, 224, 224);
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(3,1fr));
+}
+#tables > .table1{
+    background-color: blue;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#tables > .table5{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.table4{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.table2{
+    background-color: blue;
+
+}
+.table3{
+    background-color: blue;
+}
